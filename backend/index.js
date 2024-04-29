@@ -26,7 +26,7 @@ app.use(cors());
 
 app.get('/', ( request, response )=>{
     console.log(request);
-    return response.status(234).send('welcome to mern stack tutorial')
+    return response.status(234).send('welcome to Book Store')
 });
 
 app.use('/books', booksRoute); // here '/books' means add this prefix to booksRoute
